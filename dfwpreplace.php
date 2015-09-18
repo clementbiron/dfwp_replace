@@ -137,7 +137,7 @@ if(!class_exists('DFWPReplace')){
 
 					<p>
 						<?php _e('replace by',$this->settings['textdomain']); ?>
-						<input type="text" name="<?php echo $this->settings['newurlfield_name']; ?>" value="<?php echo esc_url($this->settings['newurl_value'],array('http','https')); ?>" size="30">
+						<input required type="text" name="<?php echo $this->settings['newurlfield_name']; ?>" value="<?php echo esc_url($this->settings['newurl_value'],array('http','https')); ?>" size="30">
 					</p>
 
 					<p class="submit">
